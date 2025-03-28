@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Ghibli Style Converter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Ghibli Style Converter</h1>
+      <nav>
+        <ul class="nav-links">
+            <li><a href="UploadPage.html">Upload</a></li>
+          <li><a href="ResultsPage.html">Results</a></li>
+          <li><a href="FAQPage.html">FAQP</a></li>
+
+      </nav>
+    </div>
+  </header>
+
+  <main class="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or feedback, feel free to reach out to us using the form below:</p>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+      
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p><a href = "HomePage.html">Go back to Home Page</a></p>
+    <p>&copy; 2025 Ghibli Style Converter. All rights reserved.</p>
+  </footer>
+</body>
+</html>

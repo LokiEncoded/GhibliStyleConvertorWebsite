@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Photo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+        
+      <h1>Ghibli Style Converter</h1>
+      <h3>Upload Page</h3>
+      <nav>
+        <ul class="nav-links">
+
+            <li><a href="ResultsPage.html">Results</a></li>
+            <li><a href="FAQPage.html">FAQP</a></li>
+            <li><a href="ContactUsPage.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div id="image-preview" class="image-preview">
+    <p>No file chosen yet!</p>
+  </div>
+  <div id="error-message" style="color: red; font-size: 14px; margin-bottom: 10px;"></div>
+  <div class="spinner" id="spinner"></div>
+  <div id="preview-container"></div>
+<input type="file" id="file-input" accept="image/*">
+<button id="upload-button" class="btn">Upload</button>
+
+
+  
+
+  <main class="upload">
+    <h2>Upload Your Photo</h2>
+    <form>
+      <label for="photo">Choose a photo:</label>
+      <input type="file" id="file-upload" name="photo" accept="image/*">
+      <button type="submit" class="btn">Upload</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p><a href = "HomePage.html">Go back to Home Page</a></p>
+    <p>&copy; 2025 Ghibli Style Converter. All rights reserved.</p>
+  </footer>
+  <script src="js/upload.js"></script>
+
+</body>
+</html>
